@@ -4,9 +4,9 @@ public class Car {
 
     private String model;
     private String color;
-    private int engine;
+    private double engine;
 
-    public Car(String model, String color, int engine) {
+    public Car(String model, String color, double engine) {
         this.model = model;
         this.color = color;
         this.engine = engine;
@@ -20,7 +20,7 @@ public class Car {
         return color;
     }
 
-    public int getEngine() {
+    public double getEngine() {
         return engine;
     }
 }
